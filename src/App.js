@@ -1,10 +1,13 @@
-import Header from './components/Header/Header'
 import './App.css';
+import HomePage from './Pages/HomePage/HomePage';
+import 'bootstrap/dist/css/bootstrap.css';
+
+
 
 function App() {
   return (
-    <div>
-      <Header></Header>
+    <div>    
+      <HomePage/>
     </div>
   );
 }
