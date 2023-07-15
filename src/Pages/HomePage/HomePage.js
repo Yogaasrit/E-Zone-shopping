@@ -1,12 +1,16 @@
 import React from 'react'
-import Footer from '../../components/Footer/Footer'
-import Header from '../../components/Header/Header'
+// import Footer from '../../components/Footer/Footer'
+// import Header from '../../components/Header/Header'
+import { Helmet } from 'react-helmet'
+import TodayMegaDeals from '../../components/TodayMegaDeals/TodayMegaDeals'
 
 const HomePage = () => {
   return (
     <div>
-        <Header/>
-        <Footer/>
+      <Helmet>
+          <title>Home</title>
+      </Helmet>
+      <TodayMegaDeals/>
     </div>
   )
 }
