@@ -1,18 +1,22 @@
 import React from 'react'
-
+// import { Helmet } from 'react-helmet';
+import { NavLink } from 'react-router-dom';
 const MenuList = () => {
   return (
       <ul className="navbar-nav me-auto mb-2 mb-md-0 container-fluid">
             <li className="nav-item">
-              <a className="nav-link" href="/">Home</a>
+              
+              <NavLink className="nav-link" to="/">Home</NavLink>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="/">About Us</a>
+              
+              <NavLink className="nav-link" to="/about-us">About Us</NavLink>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="/">Contact Us</a>
+              
+              <NavLink className="nav-link" to="/contact-us">Contact Us</NavLink>
             </li>
 
             <li className="nav-item">
