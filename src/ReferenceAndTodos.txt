@@ -1,0 +1,17 @@
+Routing - {done}
+    Routing installed
+    Routes done for 3 page
+
+
+Single Page Application -{done}
+    1. No Reload refresh
+    2. History
+    3. Page navigation url
+    4. Header footer intact
+
+    To do
+        1. Active menu {done} navlink
+        2. Page title install helmet {done}
+
+
+
