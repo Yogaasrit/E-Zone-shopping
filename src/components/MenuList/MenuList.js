@@ -1,4 +1,5 @@
 import React from 'react'
+
 // import { Helmet } from 'react-helmet';
 import { NavLink } from 'react-router-dom';
 const MenuList = () => {
@@ -28,17 +29,17 @@ const MenuList = () => {
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="/">Offers</a>
+              <NavLink className="nav-link" to="/my-offers">Offers</NavLink>
             </li>
             <form classname="d-flex">
               <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
             </form>
             <li className="nav-item">
-              <a className="nav-link" href="/">My Cart</a>
+              <NavLink className="nav-link" to="/my-cart">My Cart</NavLink>
             </li>
             <span >
               <li className="nav-item">
-                <a className="nav-link" href="/">Login</a>
+                <NavLink className="nav-link" to="/login-page">Login</NavLink>
               </li>
             </span>
           </ul>
