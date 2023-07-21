@@ -31,7 +31,7 @@ const MenuList = () => {
             <li className="nav-item">
               <NavLink className="nav-link" to="/my-offers">Offers</NavLink>
             </li>
-            <form classname="d-flex">
+            <form className="d-flex">
               <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
             </form>
             <li className="nav-item">
